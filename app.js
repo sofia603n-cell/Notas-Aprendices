@@ -11,3 +11,17 @@ console.log(
     "|Programa: " + aprendiz.programa
 );
 });
+
+
+const aprobados= aprendices.filter(function(aprendiz){
+    return aprendiz.nota >= 3.0;
+});
+
+console.log("listado de Aprendices Aprobados");
+aprobados.forEach(function(aprendiz){
+    console.log(
+        "Nombre: " + aprendiz.nombre + 
+        "|Nota: " + aprendiz.nota +
+        "|Programa: " + aprendiz.programa
+    );
+}); 
