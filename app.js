@@ -13,15 +13,17 @@ console.log(
 });
 
 
-const aprobados= aprendices.filter(function(aprendiz){
+const aprobados = aprendices.filter(function(aprendiz){
     return aprendiz.nota >= 3.0;
-});
+}
+);
 
-console.log("listado de Aprendices Aprobados");
+console.log("Aprendices Aprobados");
 aprobados.forEach(function(aprendiz){
     console.log(
-        "Nombre: " + aprendiz.nombre + 
+        "Nombre: " + aprendiz.nombre +
         "|Nota: " + aprendiz.nota +
         "|Programa: " + aprendiz.programa
     );
-}); 
+});
+
