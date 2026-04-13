@@ -25,3 +25,9 @@ aprobados.forEach(function(aprendiz){
         "|Programa: " + aprendiz.programa
     );
 }); 
+function Reprobados (){
+const Reprobados = aprendices.filter(aprendiz => aprendiz.nota <3.0);
+console.log("Aprendices Reprobados: ")
+console.log(Reprobados);
+
+}
