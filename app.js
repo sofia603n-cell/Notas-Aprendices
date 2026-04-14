@@ -46,6 +46,14 @@ function promedio(){
         return acumulador + aprendiz.nota;
     },0 );
     const promedio = sumanotas / aprendices.length;
-console.log("Promedio: ", promedio);
+    console.log("Promedio: ", promedio);
     
 }
+
+
+function ordenar(){
+    const ordenados = aprendices.sort((a,b) => b.nota - a.nota);
+    console.log("Aprendices ordenados por nota (de mayor a menor):")
+    console.log(ordenados);
+}
+
