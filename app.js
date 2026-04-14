@@ -72,15 +72,6 @@ function clasificacionNotas(nota) {
     }
 }
 
-
-function mostrarClasificaciones() {
-    aprendices.forEach(a => {
-        console.log(
-            a.nombre + " -> " + clasificacionNotas(a.nota)
-        );
-    });
-}
-
 function menu() {
     let opcion;
 
