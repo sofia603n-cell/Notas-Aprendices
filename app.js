@@ -54,3 +54,24 @@ function ordenar(){
     console.log(ordenados);
 }
 
+function clasificacionNotas(){
+    switch ((true)) {
+        case (nota < 3):
+            return "Bajo";
+        
+        case (nota >= 3 && nota <4):
+            return "Basico";
+            
+        case (nota >=4 && nota <= 4.5):
+            return "Alto";
+        
+        case (nota >4.5):
+            return "Superior";
+        
+        default:
+            return "Nota Invalida"
+            
+            
+
+    }
+}
