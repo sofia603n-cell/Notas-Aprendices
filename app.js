@@ -32,3 +32,11 @@ console.log("Aprendices Reprobados: ")
 console.log(Reprobados);
 
 }
+
+function mayusculas(){
+    const mayusculas = aprendices.map(a=> a.nombre.toUpperCase())
+    console.log("Nombres en mayuscula")
+    console.log(mayusculas);
+}
+
+
