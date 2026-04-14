@@ -45,7 +45,7 @@ function promedio(){
     const sumanotas = aprendices.reduce((acumulador, aprendiz) =>{
         return acumulador + aprendiz.nota;
     },0 );
-const promedio sumanotas = / aprendices.leght;
+    const promedio = sumanotas / aprendices.length;
 console.log("Promedio: ", promedio);
     
 }
